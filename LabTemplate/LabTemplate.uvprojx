@@ -397,6 +397,16 @@
               <FileType>1</FileType>
               <FilePath>.\ADTFunctions.c</FilePath>
             </File>
+            <File>
+              <FileName>functionDefs.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\functionDefs.c</FilePath>
+            </File>
+            <File>
+              <FileName>functionsDef.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\functionsDef.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

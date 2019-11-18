@@ -1,0 +1,15 @@
+.\objects\functiondefs.o: functionDefs.c
+.\objects\functiondefs.o: C:\Users\tonyz\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include\MSP.h
+.\objects\functiondefs.o: C:\Users\tonyz\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include\msp432p401r.h
+.\objects\functiondefs.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\functiondefs.o: C:\Users\tonyz\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include\msp_compatibility.h
+.\objects\functiondefs.o: C:\Users\tonyz\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include\msp432p401r_classic.h
+.\objects\functiondefs.o: C:\Users\tonyz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h
+.\objects\functiondefs.o: C:\Users\tonyz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h
+.\objects\functiondefs.o: C:\Users\tonyz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\functiondefs.o: C:\Users\tonyz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\functiondefs.o: C:\Users\tonyz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h
+.\objects\functiondefs.o: C:\Users\tonyz\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include\system_msp432p401r.h
+.\objects\functiondefs.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\functiondefs.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\functiondefs.o: functionsDef.h

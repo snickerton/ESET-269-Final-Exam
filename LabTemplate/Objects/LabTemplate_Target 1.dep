@@ -1,5 +1,5 @@
 Dependencies for Project 'LabTemplate', Target 'Target 1': (DO NOT MODIFY !)
-F (.\main.c)(0x5DD2B906)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\tonyz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\tonyz\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSP432P401R__-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\main.c)(0x5DD2BB89)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\tonyz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\tonyz\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSP432P401R__-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (C:\Users\tonyz\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include\MSP.h)(0x5B69F944)
 I (C:\Users\tonyz\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include\msp432p401r.h)(0x5B69F944)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC30B2)
@@ -13,6 +13,7 @@ I (C:\Users\tonyz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu
 I (C:\Users\tonyz\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include\system_msp432p401r.h)(0x5B69F946)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEC30B2)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEC30B2)
+I (functionsDef.h)(0x5DD2BBA1)
 F (.\RedirectPrintf.c)(0x5D45FFB2)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\tonyz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\tonyz\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSP432P401R__-o .\objects\redirectprintf.o --omf_browse .\objects\redirectprintf.crf --depend .\objects\redirectprintf.d)
 I (C:\Users\tonyz\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include\msp.h)(0x5B69F944)
 I (C:\Users\tonyz\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include\msp432p401r.h)(0x5B69F944)
@@ -40,6 +41,22 @@ I (C:\Users\tonyz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu
 I (C:\Users\tonyz\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include\system_msp432p401r.h)(0x5B69F946)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEC30B2)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEC30B2)
+F (.\functionDefs.c)(0x5DD2BBB1)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\tonyz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\tonyz\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSP432P401R__-o .\objects\functiondefs.o --omf_browse .\objects\functiondefs.crf --depend .\objects\functiondefs.d)
+I (C:\Users\tonyz\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include\MSP.h)(0x5B69F944)
+I (C:\Users\tonyz\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include\msp432p401r.h)(0x5B69F944)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC30B2)
+I (C:\Users\tonyz\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include\msp_compatibility.h)(0x5B69F944)
+I (C:\Users\tonyz\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include\msp432p401r_classic.h)(0x5B69F944)
+I (C:\Users\tonyz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9004A4)
+I (C:\Users\tonyz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97CB14)
+I (C:\Users\tonyz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9004A4)
+I (C:\Users\tonyz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9004A4)
+I (C:\Users\tonyz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C9004A4)
+I (C:\Users\tonyz\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include\system_msp432p401r.h)(0x5B69F946)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEC30B2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEC30B2)
+I (functionsDef.h)(0x5DD2BBA1)
+F (.\functionsDef.h)(0x5DD2BBA1)()
 F (RTE\Device\MSP432P401R\startup_msp432p401r_uvision.s)(0x5A5CD136)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-IC:\Users\tonyz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\tonyz\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include--pd "__UVISION_VERSION SETA 528" --pd "_RTE_ SETA 1" --pd "__MSP432P401R__ SETA 1"--list .\listings\startup_msp432p401r_uvision.lst --xref -o .\objects\startup_msp432p401r_uvision.o --depend .\objects\startup_msp432p401r_uvision.d)
 F (RTE\Device\MSP432P401R\system_msp432p401r.c)(0x5B6A0758)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\tonyz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\tonyz\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSP432P401R__-o .\objects\system_msp432p401r.o --omf_browse .\objects\system_msp432p401r.crf --depend .\objects\system_msp432p401r.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC30B2)

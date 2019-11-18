@@ -29,22 +29,30 @@ Project File Date:  11/18/2019
 Rebuild target 'Target 1'
 assembling startup_msp432p401r_uvision.s...
 compiling main.c...
-main.c(94): warning:  #1166-D: returning pointer to local variable
-  			return input;
-main.c(123): warning:  #69-D: integer conversion resulted in truncation
+functionsDef.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c(19): warning:  #69-D: integer conversion resulted in truncation
   		EUSCI_A0 -> BRW = 115200;
-main.c(155): warning:  #128-D: loop is not reachable
+main.c(51): warning:  #128-D: loop is not reachable
   		while(1);
 main.c: 3 warnings, 0 errors
-compiling system_msp432p401r.c...
+compiling RedirectPrintf.c...
 compiling ADTFunctions.c...
 ADTFunctions.c(27): warning:  #1-D: last line of file ends without a newline
   }
 ADTFunctions.c: 1 warning, 0 errors
-compiling RedirectPrintf.c...
+compiling system_msp432p401r.c...
+compiling functionDefs.c...
+functionsDef.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+functionDefs.c(88): warning:  #1166-D: returning pointer to local variable
+  			return input;
+functionDefs.c(113): warning:  #1-D: last line of file ends without a newline
+  }
+functionDefs.c: 3 warnings, 0 errors
 linking...
 Program Size: Code=1932 RO-data=612 RW-data=0 ZI-data=608  
-".\Objects\LabTemplate.axf" - 0 Error(s), 4 Warning(s).
+".\Objects\LabTemplate.axf" - 0 Error(s), 7 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -70,12 +78,12 @@ Package Vendor: TexasInstruments
    * Component: ARM::CMSIS:CORE:5.2.0
 
    * Component: TexasInstruments::Device:Startup:3.2.2
+      Source file:   Device\Source\system_msp432p401r.c
+      Source file:   Examples\EmptyMain\main.c
       Source file:   Device\Source\startup_msp432p401r_uvision.s
       Include file:  Device\Include\msp_compatibility.h
-      Source file:   Examples\EmptyMain\main.c
       Source file:   Examples\BlinkLED\blinkLED.c
-      Source file:   Device\Source\system_msp432p401r.c
-Build Time Elapsed:  00:00:03
+Build Time Elapsed:  00:00:01
 </pre>
 </body>
 </html>
